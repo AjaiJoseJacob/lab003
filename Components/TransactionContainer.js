@@ -13,7 +13,7 @@ export const TransactionContainer = ({ children }) => {
     { id: 8, name: 'Starbucks', place: 'Edmonton, AB', amount: '$7', date: '2024-03-26' },
     { id: 9, name: 'Loblaws', place: 'Quebec City, QC', amount: '$45', date: '2024-03-26' },
     { id: 10, name: 'AMC Theatres', place: 'Victoria, BC', amount: '$25', date: '2024-03-26' }
-    // Add more transactions as needed
+    
   ]);
 
   return (
