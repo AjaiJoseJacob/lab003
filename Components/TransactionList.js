@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import { View, Text, FlatList, TouchableOpacity } from 'react-native';
-import { TransactionsContext } from './TransactionContainer'; // Import the context
+import { TransactionsContext } from './TransactionContainer';
 
 const TransactionList = ({ navigation }) => {
-  const { transactionsData } = useContext(TransactionsContext); // Use the context to get transactionsData
+  const { transactionsData } = useContext(TransactionsContext); 
 
   return (
     <View>
