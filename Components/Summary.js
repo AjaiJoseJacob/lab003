@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { TransactionsContext } from './TransactionContainer'; // Import the context
+import { TransactionsContext } from './TransactionContainer'; 
 
 const Summary = () => {
-  const { transactionsData } = useContext(TransactionsContext); // Use the context to get transactionsData
+  const { transactionsData } = useContext(TransactionsContext); 
 
   if (!transactionsData || !Array.isArray(transactionsData)) {
     return <Text style={styles.text}>No transactions data available.</Text>;
