@@ -4,8 +4,7 @@ import Transaction from './Components/Transaction'
 import Summary from './Components/Summary';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { TransactionContainer } from './Components/TransactionContainer'; // Import the context
-
+import { TransactionContainer } from './Components/TransactionContainer'; 
 const Tab = createBottomTabNavigator();
 
 export default function App() {
